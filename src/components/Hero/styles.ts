@@ -24,6 +24,7 @@ export const Formulario = styled.form`
     color: #eee;
     font-family: Gloock, serif;
     font-size: 28px;
+    display: inline-block;
   }
 
   @media (max-width: 768px) {
