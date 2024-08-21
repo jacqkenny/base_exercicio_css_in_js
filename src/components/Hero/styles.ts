@@ -19,24 +19,25 @@ export const Formulario = styled.form`
     opacity: 0.5;
   }
 
-  div {
-    position: absolut;
-    color: #eee;
-    font-family: Gloock, serif;
-    font-size: 28px;
-    display: inline-block;
-  }
-
   @media (max-width: 768px) {
     height: 100%;
     padding: 24px 0;
-
-    div {
-      font-size: 32px;
-      display: inline-block;
-    }
   }
 `
+export const Container = styled.div`
+    position: relative;
+    color: #eee;
+    font-family: Gloock, serif;
+    display: inline-block;
+    font-size: 28px;
+    display: inline-block;
+    max-width: 1024px;
+
+    @media (max-width: 768px) {
+    font-size: 32px;
+    display: inline-block;
+`
+
 export const TituloH2 = styled.div`
   font-family: Gloock, serif;
   font-size: 48px;

@@ -1,5 +1,4 @@
-import { Container } from '../../styles'
-import { Formulario, TituloH2 } from './styles'
+import { Formulario, Container, TituloH2 } from './styles'
 
 const Hero = () => (
   <Formulario>
