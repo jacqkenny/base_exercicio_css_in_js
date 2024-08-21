@@ -1,14 +1,15 @@
 import styled from 'styled-components'
 
 export const Formulario = styled.form`
-  height: 600px;
+  height: 360px;
   width: 100%;
   background-image: url('https://cdn.pixabay.com/photo/2018/08/10/15/45/woman-3597101_1280.jpg');
   background-size: cover;
   position: relative;
   display: flex;
+  align-items: center;
 
-  ::before {
+  &:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,11 +28,9 @@ export const Formulario = styled.form`
 export const Container = styled.div`
     position: relative;
     color: #eee;
-    font-family: Gloock, serif;
-    display: inline-block;
-    font-size: 28px;
     display: inline-block;
     max-width: 1024px;
+    margin: 0 auto;
 
     @media (max-width: 768px) {
     font-size: 32px;
